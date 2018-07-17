@@ -1,0 +1,37 @@
+{
+  "name": "skill-scoccer",
+  "description": "Basic game with DI example",
+  "private": true,
+  "author": {
+    "name": "João Lourenço",
+    "email": "jglourenco.pt@gmail.com",
+    "url": "joaolourenco.net"
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "test": "mocha -r ts-node/register tests/*Test.ts"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.0.4",
+    "@types/mocha": "^2.2.43",
+    "@types/node": "^8.0.14",
+    "chai": "^4.1.2",
+    "file-loader": "^1.1.11",
+    "mocha": "^5.2.0",
+    "tslint": "~5.9.1",
+    "webpack": "^4.16.1",
+    "webpack-cli": "^3.0.8",
+    "webpack-command": "^0.4.1",
+    "webpack-dev-server": "^3.1.4",
+    "webpack-serve": "^2.0.2"
+  },
+  "dependencies": {
+    "connect": "^3.6.6",
+    "reflect-metadata": "^0.1.10",
+    "serve-static": "^1.13.2",
+    "ts-node": "~4.1.0",
+    "typescript": "~2.5.3"
+  }
+}
